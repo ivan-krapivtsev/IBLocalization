@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'IBLocalization_Example' do
+  pod 'IBLocalization', :path => '../'
+
+  target 'IBLocalization_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

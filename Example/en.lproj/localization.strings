@@ -1,0 +1,10 @@
+/* 
+  localization.strings
+  IBLocalization
+
+  Created by Ivan on 16/01/2019.
+  Copyright © 2019 f.a.l.c.o.n@mail.ru. All rights reserved.
+*/
+
+"test_label_string" = "Test label";
+"test_button_string" = "Test button";

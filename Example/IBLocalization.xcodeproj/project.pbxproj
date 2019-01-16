@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A9F102F1DE2D27D128E5782 /* Pods_IBLocalization_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8228E20B587D0CD95273EDE1 /* Pods_IBLocalization_Tests.framework */; };
+		2C538BD221EF9223004057B4 /* localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C538BD421EF9223004057B4 /* localization.strings */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0EE9B4CB12562A6A9BFB5D20 /* Pods_IBLocalization_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IBLocalization_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31BCD09AD3FE8AD527E888A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2C538BD321EF9223004057B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localization.strings; sourceTree = "<group>"; };
+		31BCD09AD3FE8AD527E888A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4EA9E02B62685BD456CA14C6 /* Pods-IBLocalization_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalization_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalization_Tests/Pods-IBLocalization_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IBLocalization_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBLocalization_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +67,8 @@
 		8F2CA87A5C6FFFE2A9F7C5B5 /* Pods-IBLocalization_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalization_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalization_Tests/Pods-IBLocalization_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9F4C8B685B2981757F0510F2 /* Pods-IBLocalization_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalization_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalization_Example/Pods-IBLocalization_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B22571AC28477664FBA2185F /* Pods-IBLocalization_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IBLocalization_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IBLocalization_Example/Pods-IBLocalization_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C91E8FE84A1DC09B9B834F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CDB7353E814FD53735AA1026 /* IBLocalization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IBLocalization.podspec; path = ../IBLocalization.podspec; sourceTree = "<group>"; };
+		C91E8FE84A1DC09B9B834F3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDB7353E814FD53735AA1026 /* IBLocalization.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IBLocalization.podspec; path = ../IBLocalization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				2C538BD421EF9223004057B4 /* localization.strings */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for IBLocalization */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				2C538BD221EF9223004057B4 /* localization.strings in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -392,6 +396,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C538BD421EF9223004057B4 /* localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C538BD321EF9223004057B4 /* en */,
+			);
+			name = localization.strings;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,0 +1,6 @@
+framework module Pods_IBLocalization_Example {
+  umbrella header "Pods-IBLocalization_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

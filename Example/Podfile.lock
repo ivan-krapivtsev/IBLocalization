@@ -1,0 +1,16 @@
+PODS:
+  - IBLocalization (0.1.0)
+
+DEPENDENCIES:
+  - IBLocalization (from `../`)
+
+EXTERNAL SOURCES:
+  IBLocalization:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IBLocalization: 080b20b89558c6b1d1a91601c6b83fba4c876b57
+
+PODFILE CHECKSUM: 4f35b1fafa6c8bc1e48dddce38e5573c0b8d52ed
+
+COCOAPODS: 1.5.3
